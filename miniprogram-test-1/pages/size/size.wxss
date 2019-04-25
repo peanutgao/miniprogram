@@ -1,0 +1,7 @@
+/* pages/size/size.wxss */
+.box1 {
+    width: 300rpx;
+    height: 50rpx;
+    background-color: #FF8888;
+    font-size: 30rpx;
+}

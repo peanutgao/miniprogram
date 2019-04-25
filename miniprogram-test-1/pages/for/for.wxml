@@ -1,0 +1,23 @@
+<view>
+  <!-- 遍历数组 -->
+  <view wx:for="{{arr}}" wx:key="{{index}}">
+    {{index}} -- {{item}}
+  </view>
+
+  <!-- 遍历对象 -->
+  <view wx:for="{{person}}" wx:key="{{index}}">
+    {{index}} : {{item}}
+  </view>
+
+
+  <!-- index名字改为 key -->
+  <view wx:for="{{person}}" wx:key="{{index}}" wx:for-index="key">
+    {{key}} : {{item}}
+  </view>
+
+  <block wx:for="{{person}}" wx:key="{{index}}" wx:for-index="key">
+    {{key}} : {{item}}
+  </block>
+
+</view>
+

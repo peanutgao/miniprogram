@@ -1,0 +1,4 @@
+/* pages/banner/banner.wxss */
+swiper{
+    width: 100%;
+}
