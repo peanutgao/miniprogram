@@ -1,0 +1,5 @@
+/* pages/component/MyHeader/MyHeader.wxss */
+.innerView{
+  color: red;
+  size: 25px;
+}

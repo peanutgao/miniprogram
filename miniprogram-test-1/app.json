@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/use-component/use-component",
     "pages/nav/nav",
     "pages/banner/banner",
     "pages/import/import",

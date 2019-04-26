@@ -1,0 +1,7 @@
+<!--pages/component/MyHeader/MyHeader.wxml-->
+<view class='innerView'>
+{{myData}}
+自定义组件
+<!-- 插槽，插入使用组件是里面的内容 -->
+<slot></slot>
+</view>
